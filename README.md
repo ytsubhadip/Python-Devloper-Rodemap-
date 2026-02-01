@@ -119,33 +119,7 @@ Pick one area and dive deep:
 - Package managers: `pip`.
 - Version control: `git`.
 
----
 
-**Example Timeline for Month 1 Week 1:**
-```python
-# Day 1: Control Flow
-def factorial(n):
-    if n == 0:
-        return 1
-    else:
-        return n * factorial(n - 1)
-
-print(factorial(5))  # Output: 120
-
-# Day 2: Data Structures
-inventory = [
-    {"item": "apple", "price": 1.2, "quantity": 5},
-]
-def update_inventory(item_name, new_quantity):
-    for item in inventory:
-        if item["item"] == item_name:
-            item["quantity"] += new_quantity
-
-update_inventory("banana", 3)
-print(inventory)  # Output: [{"item": "apple"}, {"item": "banana", ...}]
-```
-
----
 
 This plan requires **~1-2 hours daily** of focused learning and coding. Adjust speed based on your background—prioritizing hands-on projects will make
 you job-ready faster!
